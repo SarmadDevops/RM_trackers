@@ -73,11 +73,11 @@ export default function Navbar() {
           {/* RIGHT — Phone + CTA */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="tel:+923001234567"
+              href="tel:+923224135609"
               className="flex items-center gap-1.5 text-sm text-chrome-dark hover:text-white transition-colors"
             >
               <Phone className="w-4 h-4 text-brand-blue" />
-              <span className="font-body">+92 300 4829290</span>
+              <span className="font-body">+92 322 4135609</span>
             </a>
             <Button href="/contact" size="sm">
               Get Tracker
@@ -122,11 +122,11 @@ export default function Navbar() {
 
           <div className="pt-3 border-t border-white/5 space-y-3">
             <a
-              href="tel:+923001234567"
+              href="tel:+923224135609"
               className="flex items-center gap-2 px-4 text-sm text-chrome-dark"
             >
               <Phone className="w-4 h-4 text-brand-blue" />
-              +92 300 1234567
+              +92 322 4135609
             </a>
             <Button href="/contact" size="sm" className="w-full justify-center">
               Get Tracker

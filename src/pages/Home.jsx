@@ -2,6 +2,8 @@ import React from 'react'
 import { ArrowRight, Shield, Zap, Globe, Clock, ChevronRight, Car, Bike, Truck, BarChart3 } from 'lucide-react'
 import Button from '../components/Button'
 import SectionWrapper from '../components/SectionWrapper'
+import heroBg from '../assets/hero-bg.png'
+import ctaBg from '../assets/cta-bg.png'
 
 // ── Hero ────────────────────────────────────────────────────────────────────
 function Hero() {
@@ -10,7 +12,7 @@ function Hero() {
       {/* Hero Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/src/assets/hero-bg.png')` }}
+        style={{ backgroundImage: `url(${heroBg})` }}
       />
       {/* Dark overlay - left side darker for text readability */}
       <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(10,15,30,0.97) 40%, rgba(10,15,30,0.6) 70%, rgba(10,15,30,0.1) 100%)' }} />
@@ -182,7 +184,7 @@ function CTABanner() {
       {/* Full background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/src/assets/cta-bg.png')` }}
+        style={{ backgroundImage: `url(${ctaBg})` }}
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-navy-900/75" />
@@ -200,7 +202,7 @@ function CTABanner() {
             <Button href="/contact" size="lg">
               Order Now <ArrowRight className="w-5 h-5" />
             </Button>
-            <Button href="tel:+923001234567" variant="outline" size="lg">
+            <Button href="tel:+923224135609" variant="outline" size="lg">
               Call Us Now
             </Button>
           </div>

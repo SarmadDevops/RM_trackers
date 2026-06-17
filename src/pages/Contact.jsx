@@ -3,9 +3,10 @@ import emailjs from '@emailjs/browser'
 import { Phone, Mail, MapPin, Send, CheckCircle } from 'lucide-react'
 import SectionWrapper from '../components/SectionWrapper'
 import Button from '../components/Button'
+import logo from '../assets/logo.png'
 
 const CONTACT_INFO = [
-  { Icon: Phone, label: 'Phone / WhatsApp', value: '+923224135609', href: 'tel:+923224135609' },
+  { Icon: Phone, label: 'Phone / WhatsApp', value: '+92 322 4135609', href: 'tel:+923224135609' },
   { Icon: Mail, label: 'Email', value: 'info@rmtrackers.com', href: 'mailto:info@rmtrackers.com' },
   { Icon: MapPin, label: 'Location', value: 'Lahore, Punjab, Pakistan', href: '#' },
 ]
@@ -49,7 +50,7 @@ const handleSubmit = (e) => {
       {/* Watermark Logo */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 opacity-5">
         <img
-          src="/src/assets/logo.png"
+          src={logo}
           alt=""
           className="w-[600px] h-[600px] object-contain"
         />
