@@ -5,7 +5,7 @@ import SectionWrapper from '../components/SectionWrapper'
 import Button from '../components/Button'
 
 const CONTACT_INFO = [
-  { Icon: Phone, label: 'Phone / WhatsApp', value: '+92 300 4829290', href: 'tel:+923004829290' },
+  { Icon: Phone, label: 'Phone / WhatsApp', value: '+923224135609', href: 'tel:+923224135609' },
   { Icon: Mail, label: 'Email', value: 'info@rmtrackers.com', href: 'mailto:info@rmtrackers.com' },
   { Icon: MapPin, label: 'Location', value: 'Lahore, Punjab, Pakistan', href: '#' },
 ]
