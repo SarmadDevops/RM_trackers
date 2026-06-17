@@ -42,9 +42,9 @@ export default function Footer() {
               Pakistan's trusted GPS vehicle tracking company. Real-time location, fleet management, and anti-theft solutions for individuals and businesses.
             </p>
             <div className="space-y-2">
-              <a href="tel:+923224135609" className="flex items-center gap-2 text-sm text-chrome-dark hover:text-white transition-colors">
+              <a href="tel:+923004829290" className="flex items-center gap-2 text-sm text-chrome-dark hover:text-white transition-colors">
                 <Phone className="w-4 h-4 text-brand-blue flex-shrink-0" />
-                +923224135609
+                +92 300 4829290
               </a>
               <a href="mailto:info@rmtrackers.com" className="flex items-center gap-2 text-sm text-chrome-dark hover:text-white transition-colors">
                 <Mail className="w-4 h-4 text-brand-blue flex-shrink-0" />
